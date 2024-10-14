@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    <span>效率详情表单 </span>
+    <span>效率详情表单test </span>
   </div>
 </template>
 
