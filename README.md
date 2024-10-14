@@ -1,12 +1,8 @@
-[![license](https://img.shields.io/github/license/anncwb/vue-vben-admin.svg)](LICENSE) <h1>RuoYi Plus Vben</h1>
+[![license](https://img.shields.io/github/license/anncwb/vue-vben-admin.svg)](LICENSE) <h1>**Multi-role-middle-platform**</h1>
 
 ## 提示
 
-该仓库为老版本 **[vben2]** 目前follow后端版本 vben5官方组件完善后此仓库不再进行开发
-
-适配最新的 **[vben5]** 移步[gitee地址](https://gitee.com/dapppp/ruoyi-plus-vben5) vben5版本等待官方组件中
-
-根据白嫖率会不定期关闭fork😅
+##根据ruoyi-plus-vben修改，仅用于个人设计，请尊重原作者：[玲娜贝er](https://gitee.com/dapppp)
 
 ## 简介
 
@@ -20,15 +16,13 @@
 
 对应后端项目: **(分布式 5.X 分支 微服务 2.分支)**
 
-分布式 [RuoYi-Vue-Plus](https://gitee.com/dromara/RuoYi-Vue-Plus/tree/5.X/)
-
-微服务 [RuoYi-Cloud-Plus](https://gitee.com/dromara/RuoYi-Cloud-Plus/tree/2.X/)
+分布式 [RuoYi-Vue-Plus](https://github.com/sumrian/Multi-role-middle-platform-api.git)
 
 ## 预览
 
-admin 账号: admin admin123
+admin 账号: admin sumrian123456
 
-[预览地址点这里](http://plus.dapdap.top)
+[预览地址点这里](http://111.231.7.75:8001/)
 
 ## WX Group
 
@@ -61,13 +55,13 @@ admin 账号: admin admin123
 - 获取项目代码
 
 ```bash
-git clone https://gitee.com/dapppp/ruoyi-plus-vben.git
+git clone https://github.com/sumrian/Multi-role-middle-platform-ui.git
 ```
 
 - 安装依赖
 
 ```bash
-cd ruoyi-plus-vben
+cd Multi-role-middle-platform-ui
 
 pnpm install
 ```
@@ -163,8 +157,4 @@ pnpm build
 | :-: | :-: | :-: | :-: | :-: |
 | not support | last 2 versions | last 2 versions | last 2 versions | last 2 versions |
 
-## 捐赠
 
-如果项目帮助到您 可以考虑请作者喝杯咖啡 万分感谢您对开源的支持!
-
-<img src=https://plus.dapdap.top/minio-server/plus/2024/03/16/98a9d704eb0c4c04b721bf7799217571.jpg height=360px />

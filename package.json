@@ -1,19 +1,19 @@
 {
-  "name": "ruoyi-plus-vben",
+  "name": "platform",
   "version": "1.4.4",
-  "homepage": "https://gitee.com/dapppp/ruoyi-plus-vben.git",
+  "homepage": "https://github.com/sumrian/Multi-role-middle-platform-ui",
   "bugs": {
-    "url": "https://gitee.com/dapppp/ruoyi-plus-vben/issues"
+    "url": "https://github.com/sumrian/Multi-role-middle-platform-ui/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitee.com/dapppp/ruoyi-plus-vben.git"
+    "url": "git+https://https://github.com/sumrian/Multi-role-middle-platform-ui.git"
   },
   "license": "MIT",
   "author": {
-    "name": "vben",
-    "email": "anncwb@126.com",
-    "url": "https://github.com/anncwb"
+    "name": "sumrian",
+    "email": "",
+    "url": "https://github.com/sumrian"
   },
   "type": "module",
   "scripts": {
