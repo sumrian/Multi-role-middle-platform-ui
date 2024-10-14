@@ -1,7 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div> 效率详情表单 </div>
+  <div>
+    <span>效率详情表单 </span>
+  </div>
 </template>
 
 <style scoped lang="less"></style>
