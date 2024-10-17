@@ -6,7 +6,7 @@
 
 ## 简介
 
-基于 [vben(ant-design-vue)](https://github.com/vbenjs/vue-vben-admin) 的 RuoYi-Vue-Plus 前端项目
+基于 [vben(ant-design-vue)](https://github.com/vbenjs/vue-vben-admin) 的 RuoYi-Vue-Plus 前端项目，一个多角色的中台系统
 
 | 组件/框架      | 版本   |
 | :------------- | :----- |

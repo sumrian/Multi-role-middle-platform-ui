@@ -14,6 +14,7 @@ export enum DictEnum {
   SYS_GRANT_TYPE = 'sys_grant_type', // 授权类型
   WF_BUSINESS_STATUS = 'wf_business_status', // 业务状态
   WF_FORM_TYPE = 'wf_form_type', // 表单类型
+  S_LEAVE_TYPE = 's_leave_type', //请假类型
 }
 
 // 提供给下拉框组件使用

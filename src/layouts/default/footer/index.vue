@@ -1,5 +1,5 @@
 <template>
-  <Layout.Footer :class="prefixCls" v-if="getShowLayoutFooter" ref="footerRef">
+  <Layout.Footer :class="prefixCls" v-if="true" ref="footerRef">
     <div :class="`${prefixCls}__links`">
       <a @click="openWindow(SITE_URL)">{{ t('layout.footer.onlinePreview') }}</a>
 
@@ -7,7 +7,16 @@
 
       <a @click="openWindow(DOC_URL)">{{ t('layout.footer.onlineDocument') }}</a>
     </div>
-    <div>Copyright &copy;2024 sumrian</div>
+    <div>
+      Copyright 2024 sumrian &copy;
+
+      <a
+        style="color: #d9d9d9; text-decoration: none"
+        href="https://beian.miit.gov.cn/"
+        target="_blank"
+        >赣ICP备2024045870号-1</a
+      >
+    </div>
   </Layout.Footer>
 </template>
 <script lang="ts" setup>
