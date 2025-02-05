@@ -24,13 +24,13 @@
             </div>
             <div class="mt-5 font-normal text-white dark:text-gray-500 -enter-x">
               {{ t('sys.login.signInDesc') }}
-              <!--              <br />-->
-              <!--              <a-->
-              <!--                style="color: white; text-decoration: none"-->
-              <!--                href="https://beian.miit.gov.cn/"-->
-              <!--                target="_blank"-->
-              <!--                >©赣ICP备2024045870号-1</a-->
-              <!--              >-->
+              <br />
+              <a
+                style="color: white; text-decoration: none"
+                href="https://beian.miit.gov.cn/"
+                target="_blank"
+                >©赣ICP备2024045870号-1</a
+              >
             </div>
           </div>
         </div>

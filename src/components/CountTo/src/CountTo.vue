@@ -12,7 +12,7 @@
 
   const props = defineProps({
     startVal: { type: Number, default: 0 },
-    endVal: { type: Number, default: 2021 },
+    endVal: { type: Number, default: 2022 },
     duration: { type: Number, default: 1500 },
     autoplay: { type: Boolean, default: true },
     decimals: {

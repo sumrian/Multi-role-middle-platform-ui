@@ -102,6 +102,7 @@
     },
     title: '请假申请列表',
     api: leaveList,
+    canResize: false,
     showIndexColumn: false,
     rowKey: 'id',
     useSearchForm: true,
