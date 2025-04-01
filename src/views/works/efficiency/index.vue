@@ -2,6 +2,8 @@
   <PageWrapper dense>
     <BasicTable @register="registerTable">
       <template #toolbar>
+        <a-button @click="getAllTable"> 获取全部表 </a-button>
+        <a-button @click="getStructure('act_evt_log，act_hi_actinst')"> 查询表结构 </a-button>
         <a-button
           @click="downloadExcel(efficiencyExport, '测试单数据', getForm().getFieldsValue())"
           v-auth="'works:efficiency:export'"
@@ -15,12 +17,7 @@
           v-auth="'works:efficiency:remove'"
           >删除</a-button
         >
-        <a-button
-          type="primary"
-          @click="handleAdd"
-          v-auth="'works:efficiency:add'"
-          >新增</a-button
-        >
+        <a-button type="primary" @click="handleAdd" v-auth="'works:efficiency:add'">新增</a-button>
       </template>
       <template #bodyCell="{ column, record }">
         <template v-if="column.key === 'action'">
@@ -66,6 +63,7 @@
   import EfficiencyModal from './EfficiencyModal.vue';
   import { formSchemas, columns } from './efficiency.data';
   import { IconEnum } from '@/enums/appEnum';
+  import { getDatabaseTables, getTableStructure } from '@/api/works/tables';
 
   defineOptions({ name: 'Efficiency' });
 
@@ -110,6 +108,15 @@
     await efficiencyRemove([record.id]);
     await reload();
   }
+
+  const getAllTable = async () => {
+    const res = await getDatabaseTables();
+    console.log('getAllTable', res);
+  };
+  const getStructure = async (table) => {
+    const res = await getTableStructure(table);
+    console.log('getStructure', res);
+  };
 </script>
 
 <style scoped></style>

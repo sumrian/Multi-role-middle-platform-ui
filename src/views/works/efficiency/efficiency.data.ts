@@ -62,7 +62,7 @@ export const modalSchemas: FormSchema[] = [
     field: 'id',
     required: false,
     component: 'Input',
-      show: false,
+    show: false,
   },
   {
     label: '部门id',
