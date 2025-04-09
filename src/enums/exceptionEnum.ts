@@ -11,7 +11,7 @@ export enum ExceptionEnum {
   // error
   ERROR = 500,
 
-  // net work error
+  // net workbench error
   NET_WORK_ERROR = 10000,
 
   // No data on the page. In fact, it is not an exception page

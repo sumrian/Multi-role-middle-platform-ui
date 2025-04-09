@@ -34,7 +34,7 @@ async function createPlugins({ isBuild, root, compress, enableAnalyze }: Options
   // vite-plugin-purge-icons
   vitePlugins.push(purgeIcons());
 
-  // The following plugins only work in the production environment
+  // The following plugins only workbench in the production environment
   if (isBuild) {
     // rollup-plugin-gzip
     vitePlugins.push(

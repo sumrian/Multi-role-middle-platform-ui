@@ -67,7 +67,7 @@ module.exports = {
 
     // English
     typesAppend: [
-      { value: 'wip', name: 'wip:      work in process' },
+      { value: 'wip', name: 'wip:      workbench in process' },
       { value: 'workflow', name: 'workflow: workflow improvements' },
       { value: 'types', name: 'types:    type definition file changes' },
     ],
